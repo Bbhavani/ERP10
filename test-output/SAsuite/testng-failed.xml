@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SAsuite]">
+  <test name="Testsa(failed)">
+    <classes>
+      <class name="com.erp.master.execng">
+        <methods>
+          <include name="uom"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.erp.master.execng -->
+    </classes>
+  </test> <!-- Testsa(failed) -->
+</suite> <!-- Failed suite [SAsuite] -->
